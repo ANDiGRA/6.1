@@ -9,7 +9,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/chokoboi777/chocolate-factory-lib"
+            "url": "https://github.com/ANDiGRA/6.11"
         }
     ],
     "autoload": {
