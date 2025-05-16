@@ -1,0 +1,22 @@
+{
+    "name": "work/chocolate-factory-app",
+    "type": "prodject",
+    "description": "Приложение шоколадной фабрики",
+    "require": {
+        "php": ">=8.0",
+        "6 работа/chocolate-factory-lib": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/chokoboi777/chocolate-factory-lib"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ChocolateFactoryApp\\": "src/"
+        }
+        
+    }
+    
+}
